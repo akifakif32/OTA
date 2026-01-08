@@ -1,0 +1,6 @@
+- OTA (Over-The-Air) updates added.
+- Floppy Kernel integrated by default (Performance & Stability).
+- January 2026 Security Patch included.
+- Source Related Changes
+- SA beyler turk var mi? :)
+
