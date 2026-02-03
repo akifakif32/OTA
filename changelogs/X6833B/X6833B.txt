@@ -21,4 +21,4 @@
 - Use solid black/white color in keyguard bouncer (pin/password entering page) when blurs disabled
 - Bring back lockscreen clock fonts feature (author: neobuddy89)
 - Allow to hide battery icon from statusbar
-- Return AOSP messaging for all uygun mudur hocaefendi
+- Return AOSP messaging for all

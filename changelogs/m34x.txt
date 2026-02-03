@@ -1,16 +1,23 @@
-- Floppy Kernel Updated To 6.2.1
+- !!! YOU HAVE TO FORMAT DATA IF YOU INSTALL THIS UPDATE !!!
+- Floppy Kernel Updated To 6.2.2
 - Source Related Changes:
-- Fix some apps/games storage permission access/create issue (author: rmp22)
-- Add custom font ttf/otf import feature (author: rmp22)
-- Add toggle to enable Pixel smartspace style on lockscreen (author: aswin7469, nivlafx, ralph950412, ghostrider-reborn)
-- Add feature to enable multi audio focus i.e. Allow multiple apps to play audio at same time (author: rmp22)
-- Fix system corrupt issue on 0 value for some seekbar instances (eg. quick settings columns and rows etc.)
-- Fix an occasional issue where quick qs panel couldn't be dragged to pull expanded qs panel
-- Fix volume panel layout issues in landscape mode (author: shutter-cat)
-- Add toggleable waveform media player seekbar toggle (author: rmp22, Ghosuto)
-- Improve network speed indicator alignment with network icon
-- Fix advanced reboot powermenu color on light theme
-- Bring back default four bars network icon
-- Add grayscale tint to weather icon in dozing state / AOD (author: Ghosuto)
-- Remove empty space from bundled notification settings and notification summary settings
-
+- Merge tag 'android-16.0.0_r4' (QPR2) [Complete source rebase]
+- Dropped some features due to incompatibility with QPR2 such as Custom launcher icon pack and ambient edgle light. That's all, everything else is still present and intact
+- Bring back nothingos style ringer tile from v3.5
+- Improve nothingos style ringer tile handling with DND mode (author: shutter-cat)
+- Refactor ongoing progress action chip to jetpack compose (author: shutter-cat)
+- Fix sluggish/laggy scrolling in Freeform window (author: kenway214)
+- Improved spacing above & below of settings style animated header
+- Fixed abnormal bootstate detection (author: neobuddy89)
+- Show lockscreen widgets preference and enable support for QPR2 lockscreen widgets feature (author: aswin7469)
+- Allow user to directly enable mobile data from data tile without warning popup (author: neobuddy89)
+- Fix an issue where icons/widgets couldn't be placed at Quickspace area even if at a glance disabled
+- Fix improper dock/row padding when homescreen search bar disabled
+- Fix ambient wallpaper only usable on AOD, and make it usable on ambient display too (author: neobuddy89)
+- Fix adaptive playback toggle
+- Bring back bluetooth timeout feature (author: Uldiniad, neobuddy89, idoybh)
+- Fix qs tiles camouflage when pure black qs theme enabled / blurs disabled
+- Use solid black/white color in keyguard bouncer (pin/password entering page) when blurs disabled
+- Bring back lockscreen clock fonts feature (author: neobuddy89)
+- Allow to hide battery icon from statusbar
+- Return AOSP messaging for all
