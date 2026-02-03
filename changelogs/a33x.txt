@@ -1,6 +1,24 @@
-- OTA (Over-The-Air) updates added.
-- Floppy Kernel integrated by default (Performance & Stability).
-- January 2026 Security Patch included.
-- Source Related Changes
-- SA beyler turk var mi? :)
-
+- !!! YOU HAVE TO FORMAT DATA IF YOU INSTALL THIS UPDATE !!!
+- Fingerprint Fixed by Fynrae
+- Floppy Kernel Updated To 6.2.2
+- Source Related Changes:
+- Merge tag 'android-16.0.0_r4' (QPR2) [Complete source rebase]
+- Dropped some features due to incompatibility with QPR2 such as Custom launcher icon pack and ambient edgle light. That's all, everything else is still present and intact
+- Bring back nothingos style ringer tile from v3.5
+- Improve nothingos style ringer tile handling with DND mode (author: shutter-cat)
+- Refactor ongoing progress action chip to jetpack compose (author: shutter-cat)
+- Fix sluggish/laggy scrolling in Freeform window (author: kenway214)
+- Improved spacing above & below of settings style animated header
+- Fixed abnormal bootstate detection (author: neobuddy89)
+- Show lockscreen widgets preference and enable support for QPR2 lockscreen widgets feature (author: aswin7469)
+- Allow user to directly enable mobile data from data tile without warning popup (author: neobuddy89)
+- Fix an issue where icons/widgets couldn't be placed at Quickspace area even if at a glance disabled
+- Fix improper dock/row padding when homescreen search bar disabled
+- Fix ambient wallpaper only usable on AOD, and make it usable on ambient display too (author: neobuddy89)
+- Fix adaptive playback toggle
+- Bring back bluetooth timeout feature (author: Uldiniad, neobuddy89, idoybh)
+- Fix qs tiles camouflage when pure black qs theme enabled / blurs disabled
+- Use solid black/white color in keyguard bouncer (pin/password entering page) when blurs disabled
+- Bring back lockscreen clock fonts feature (author: neobuddy89)
+- Allow to hide battery icon from statusbar
+- Return AOSP messaging for all
