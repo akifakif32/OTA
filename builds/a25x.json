@@ -1,12 +1,12 @@
 {
 	"response": [
 		{
-			"filename": "Project_Infinity-X-3.6-a25x-19.01.2026-GAPPS-UNOFFICIAL.zip",
-			"download": "https://github.com/akifakif32/OTA/releases/download/v3.6/Project_Infinity-X-3.6-a25x-19.01.2026-GAPPS-UNOFFICIAL.zip",
-			"timestamp": 1768821010,
-			"md5": "383c9455290cc0f6aec6ee99c355e2dc",
-			"size": 1655834547,
-			"version": "3.6"
+			"filename": "Project_Infinity-X-3.7-a25x-03.02.2026-GAPPS-UNOFFICIAL.zip",
+			"download": "https://github.com/akifakif32/OTA/releases/download/3.7/Project_Infinity-X-3.7-a25x-03.02.2026-GAPPS-UNOFFICIAL.zip",
+			"timestamp": 1770139544,
+			"md5": "83bd6a9152f3f30ffd8cfcc0f7dbeb8a",
+			"size": 1618884159,
+			"version": "3.7"
 		}
 	]
 }
