@@ -1,5 +1,5 @@
 - Wishing a Happy Ramadan to all Muslims from Turkey!
-- 5GHz Fixed
+- 5GHz Fixed (For Real This Time)
 - Update KagamiChihiro Prebuilt Kernel to v1.1
 - Fix notifications/media player not appearing on lockscreen with custom clock styles
 - Add feature to adjust height of  lockscreen clock styles
